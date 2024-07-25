@@ -27,6 +27,9 @@ The output of the device shall be an analogue voltage in the range of 1V to 10V.
 
 The device shall output the standard deviation or variance of the reading.
 
+The device shall output the current gain setting to the user.
+This can be either by: a) a physical display like an LCD, b) sent to the user via software, or both of the above.
+
 The analogue voltage output shall be provided via a 50-ohm BNC connector.
 
 ### 3. Gain switching
@@ -35,15 +38,10 @@ The device shall switch gain values for the amplifier without physical interacti
 
 The device shall have a microcontroller capable of switching gain values using its addressable I/O as dictated by communication with said microcontroller.
 
-### 4. Gain display
-
-The gain used to output the voltage shall to be available to the user.
-This can be either by: a) a physical display like an LCD, b) sent to the user via software, or both of the above.
-
-### 5. Usage considerations
+### 4. Usage considerations
 
 The amplifier shall emit the minimal possible amount of light to carry out its core functions. This means there shall be no sources of light in the design that are not entirely disabled during use, and that any uncovered materials should be as matte as possible.
 
-### 6. Physical Dimensions
+### 5. Physical Dimensions
 
 The physical dimensions of the device are not important, within reason. Basically it should be able to be moved between labs and tables without too much effort or take up too much space on a lab bench.
