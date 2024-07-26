@@ -64,7 +64,7 @@ Work will be done in stages
 
 ### Planning
 
-Gather and record the client requirements and develop a requirements document (above). This should be completed be the end of week 3, but will likely be continually adapted as the project continues.
+Gather and record the client requirements and develop a requirements document (above). These have been gathered by the end of week 3, but will be continually developed into specifications.
 
 Design a circuit based on the requirements document over weeks 4-6. This will also involve selecting components and testing those components in discrete parts of the final circuit.
 
@@ -74,10 +74,12 @@ Once we have a design of the entire circuit, build it over weeks 7-9.
 
 ### Testing
 
-While building the prototype circuit, continually test it against the requirements. This will involve applying the expected currents in req 1.1. Measuring if the outputted voltages are between 1V-10V as in req 2.1. Perform a number of these tests to find a mean and variance for req 2.2.
+While building the prototype circuit, continually test it against the requirements. This will involve applying the expected currents in req 1.1. Measuring if the outputted voltages are between 1V-10V as in req 2.1.
 
 Requirements 3.1 & 3.2 will be tested by interacting with the prototype in the way the client will use it and measuring the outcomes.
 
 Testing will be performed during and after construction of the prototype (and subsequent versions) spanning weeks 8-11.
 
-Closing
+### Closing
+
+Closing will be carried out in the period of time from weeks 12 till final presentation.
