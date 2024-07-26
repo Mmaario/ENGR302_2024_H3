@@ -70,7 +70,7 @@ Design a circuit based on the requirements document over weeks 4-6. This will al
 
 ### Prototyping
 
-Once we have a design of the entire circuit, build it over weeks 7-9.
+Once we have a design of the circuit, and build it over weeks 7-9.
 
 ### Testing
 
