@@ -1,10 +1,5 @@
 # Plan and Requirements analysis - H3
 
-The first assessment for this project is a "Requirements analysis documentation" - worth 5%
-
-Description [here](https://nuku.wgtn.ac.nz/courses/18231/pages/plan-and-requirements-analysis?module_item_id=548280).
-Submission [here](https://apps.ecs.vuw.ac.nz/submit/ENGR302/Plan_and_requirements_analysis).
-
 ## Transipmedence amplifier
 
 The goal of this project is to create a transipmedence amplifier that takes a current as input and turns that into a voltage as output, where the gain is set through software.
@@ -13,9 +8,9 @@ The purpose of the amplifier is to turn a very small current output from a photo
 
 ### Requirements
 
-These requirements have been scaled in terms of complexity and priority as indicated by their P and C scores. 
+These requirements have been scaled in terms of complexity and priority as indicated by their P and C scores.
 
-| Priority |     | 
+| Priority |     |
 | ----------- | ----------- |
 |   P1   |    required for the core functionality of the device    |
 |   P2   |    something the project should have or be able to do    |
@@ -81,7 +76,7 @@ Design a circuit based on the requirements document over weeks 4-6. This will al
 
 ### Prototyping
 
-Once we have a design of the circuit, and build it over weeks 7-9.
+Once we have a design of the circuit, it shall be built over weeks 7-9.
 
 ### Testing
 
