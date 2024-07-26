@@ -23,8 +23,8 @@ These requirements have been scaled in terms of complexity and priority as indic
 
 | Complexity |     |
 | ----------- | ----------- |
-|   C1   |    1 hour    |
-|   C2  |    10 hours per week    |
+|   C1   |    < 1 hour    |
+|   C2  |    < 10 hours per week    |
 |   C3  |    > 10 hours per week    |
 
 #### 1. Input
