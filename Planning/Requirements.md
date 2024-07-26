@@ -1,4 +1,4 @@
-# First assessment
+# Plan and Requirements analysis - H3
 
 The first assessment for this project is a "Requirements analysis documentation" - worth 5%
 
@@ -7,11 +7,11 @@ Submission [here](https://apps.ecs.vuw.ac.nz/submit/ENGR302/Plan_and_requirement
 
 # Transipmedence amplifier
 
-## requirements
-
 The goal of this project is to create a transipmedence amplifier that takes a current as input and turns that into a voltage as output, and can switch to appropriate gain values automatically via software.
 
 The purpose of the amplifier is to turn a very small current output from a photodiode into a voltage reading in the 1V-10V range. This output necessarily has to be paired with a gain value.
+
+## requirements
 
 ### 1. Input
 
@@ -42,11 +42,14 @@ This can be either by: a) a physical display like an LCD, b) sent to the user vi
 
 ### 4. Usage considerations
 
-4.1 The amplifier shall emit the minimal possible amount of light to carry out its core functions. This means there shall be no sources of light in the design that are not entirely disabled during use, and that any uncovered materials should be as matte as possible.
+4.1 The amplifier shall be used in a low light environment. This means:
+    4.1.1 There shall be no sources of light in the design that are not entirely disabled, or disablable, during use.
+    4.1.2 Any uncovered materials should be as non-reflective as possible.
+
 
 ### 5. Physical Dimensions
 
-5.1 The physical dimensions of the device are not important, within reason. Basically it should be able to be moved between labs and tables without too much effort or take up too much space on a lab bench.
+5.1 The physical dimensions of the device are not important, within reason. The device shall fit on a lab desk and be liftable with one hand.
 
 ## Plan
 Do the Stuff.
