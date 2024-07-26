@@ -66,7 +66,7 @@ These requirements have been scaled in terms of complexity and priority as indic
 
 ## Plan
 
-Work will be done in stages
+Work will be done in stages:
 
 ### Planning
 
