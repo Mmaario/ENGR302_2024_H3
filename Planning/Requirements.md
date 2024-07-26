@@ -13,8 +13,29 @@ The purpose of the amplifier is to turn a very small current output from a photo
 
 ### Requirements
 
-These requirements have been scaled in terms of complexity and priority as indicated by their P and C scores. P1 is the defined as being required for the core functionality of the device, P2 is defined as something the project should have or be able to do, and P3 is defined as a nice to have addition to the project.
-The complexity defined as C1 taking 1 hour, C2 taking up to 10 hours per week, and C3 being in excess of this.
+These requirements have been scaled in terms of complexity and priority as indicated by their P and C scores. 
+
+These requirements have been scaled in terms of complexity and priority as indicated by their P and C scores. 
+
+| Priority |     | 
+| ----------- | ----------- |
+|   P1   |    required for the core functionality of the device    |
+|   P2   |    something the project should have or be able to do    |
+|   P3   |    nice to have addition to the project    |
+
+| Complexity |     |
+| ----------- | ----------- |
+|   C1   |    1 hour    |
+|   C2  |    10 hours per week    |
+|   C3  |    > 10 hours per week    |
+
+ is the defined as being , 
+
+ is defined as , and 
+
+ is defined as a .
+The complexity defined as 
+ taking ,  taking up to , and  being in excess of this.
 
 #### 1. Input
 
