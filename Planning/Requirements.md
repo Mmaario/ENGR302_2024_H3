@@ -15,8 +15,6 @@ The purpose of the amplifier is to turn a very small current output from a photo
 
 These requirements have been scaled in terms of complexity and priority as indicated by their P and C scores. 
 
-These requirements have been scaled in terms of complexity and priority as indicated by their P and C scores. 
-
 | Priority |     | 
 | ----------- | ----------- |
 |   P1   |    required for the core functionality of the device    |
@@ -28,14 +26,6 @@ These requirements have been scaled in terms of complexity and priority as indic
 |   C1   |    1 hour    |
 |   C2  |    10 hours per week    |
 |   C3  |    > 10 hours per week    |
-
- is the defined as being , 
-
- is defined as , and 
-
- is defined as a .
-The complexity defined as 
- taking ,  taking up to , and  being in excess of this.
 
 #### 1. Input
 
