@@ -5,7 +5,9 @@ The first assessment for this project is a "Requirements analysis documentation"
 Description [here](https://nuku.wgtn.ac.nz/courses/18231/pages/plan-and-requirements-analysis?module_item_id=548280).
 Submission [here](https://apps.ecs.vuw.ac.nz/submit/ENGR302/Plan_and_requirements_analysis).
 
-## Transipmedence amplifier requirements
+# Transipmedence amplifier
+
+## requirements
 
 The goal of this project is to create a transipmedence amplifier that takes a current as input and turns that into a voltage as output, and can switch to appropriate gain values automatically via software.
 
@@ -45,3 +47,6 @@ This can be either by: a) a physical display like an LCD, b) sent to the user vi
 ### 5. Physical Dimensions
 
 5.1 The physical dimensions of the device are not important, within reason. Basically it should be able to be moved between labs and tables without too much effort or take up too much space on a lab bench.
+
+## Plan
+Do the Stuff.
