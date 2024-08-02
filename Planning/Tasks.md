@@ -2,8 +2,10 @@
 
 ## Design and Planning
 
-1. Outline the three possible topologies.
-2. LT-Spice based models of each.
-3. Investigate switching methods for different solid state vs mechanical.
-4. Design a test methodology.
-5. Collaborate report of project plan.
+1. Outline the three possible topologies. Mario (and setup powerpoint).
+2. LT-Spice based models of each. Louis.
+3. Investigate switching methods for different solid state vs mechanical. Ev.
+4. Design a test methodology. Louis.
+5. Collaborate report of project plan. Max.
+
+        Create Gantt chart
