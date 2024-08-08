@@ -6,7 +6,7 @@ Introduction: Ev and Louis
 
 Literature review: Louis
 
-Tools and methods: maybe don't need?
+Tools and methods: discuss project management style. Discuss the ways that we are recording and working on our design projects.
 
 Development progress(requirements and design): Max and Mario
 
