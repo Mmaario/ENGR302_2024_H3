@@ -1,0 +1,145 @@
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=J? NewDesignator=J2
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Designator: OldDesignator=R? NewDesignator=R7
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Change Component Designator: OldDesignator=U? NewDesignator=U3
+Change Component Designator: OldDesignator=U? NewDesignator=U4
+Change Component Designator: OldDesignator=U? NewDesignator=U5
+Change Component Designator: OldDesignator=U? NewDesignator=U6
+Added Component: Designator=K1(FP-EC2-3NU-MFG)
+Added Component: Designator=K2(FP-EC2-3NU-MFG)
+Added Component: Designator=K3(FP-EC2-3NU-MFG)
+Added Component: Designator=K4(FP-EC2-3NU-MFG)
+Added Component: Designator=K5(FP-EC2-3NU-MFG)
+Added Component: Designator=K6(FP-EC2-3NU-MFG)
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C5-1
+Add Pin To Net: Unknown Pin: Pin C5-2
+Add Pin To Net: Unknown Pin: Pin C6-1
+Add Pin To Net: Unknown Pin: Pin C6-2
+Added Pin To Net: NetName=In Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-4
+Add Pin To Net: Unknown Pin: Pin K1-3
+Add Pin To Net: Unknown Pin: Pin K1-5
+Add Pin To Net: Unknown Pin: Pin K1-8
+Add Pin To Net: Unknown Pin: Pin K1-9
+Add Pin To Net: Unknown Pin: Pin K2-3
+Add Pin To Net: Unknown Pin: Pin K2-5
+Add Pin To Net: Unknown Pin: Pin K2-8
+Add Pin To Net: Unknown Pin: Pin K2-9
+Add Pin To Net: Unknown Pin: Pin K3-3
+Add Pin To Net: Unknown Pin: Pin K3-5
+Add Pin To Net: Unknown Pin: Pin K3-8
+Add Pin To Net: Unknown Pin: Pin K3-9
+Add Pin To Net: Unknown Pin: Pin K4-3
+Add Pin To Net: Unknown Pin: Pin K4-5
+Add Pin To Net: Unknown Pin: Pin K4-8
+Add Pin To Net: Unknown Pin: Pin K4-9
+Add Pin To Net: Unknown Pin: Pin K5-3
+Add Pin To Net: Unknown Pin: Pin K5-5
+Add Pin To Net: Unknown Pin: Pin K5-8
+Add Pin To Net: Unknown Pin: Pin K5-9
+Add Pin To Net: Unknown Pin: Pin K6-3
+Add Pin To Net: Unknown Pin: Pin K6-5
+Add Pin To Net: Unknown Pin: Pin K6-8
+Add Pin To Net: Unknown Pin: Pin K6-9
+Added Pin To Net: NetName=NC Pin=U1-1
+Added Pin To Net: NetName=NC Pin=U1-5
+Added Pin To Net: NetName=NC Pin=U2-1
+Added Pin To Net: NetName=NC Pin=U2-5
+Added Pin To Net: NetName=NC Pin=U3-1
+Added Pin To Net: NetName=NC Pin=U3-5
+Added Pin To Net: NetName=NC Pin=U4-1
+Added Pin To Net: NetName=NC Pin=U4-5
+Added Pin To Net: NetName=NC Pin=U5-1
+Added Pin To Net: NetName=NC Pin=U5-5
+Added Pin To Net: NetName=NC Pin=U6-1
+Added Pin To Net: NetName=NC Pin=U6-5
+Added Net: Name=NC
+Added Net: Name=NetJ3_0
+Added Net: Name=NetJ3_1
+Added Net: Name=NetJ3_2
+Added Net: Name=NetJ3_3
+Added Net: Name=NetJ3_4
+Added Net: Name=NetJ3_5
+Added Net: Name=NetJ3_6
+Added Net: Name=NetJ3_7
+Added Net: Name=NetJ3_8
+Added Net: Name=NetJ3_9
+Added Net: Name=NetJ3_10
+Added Net: Name=NetJ3_11
+Added Pin To Net: NetName=NetK1_4 Pin=R1-2
+Added Pin To Net: NetName=NetK1_4 Pin=U1-2
+Added Net: Name=NetK1_4
+Added Pin To Net: NetName=NetK1_10 Pin=R1-1
+Added Pin To Net: NetName=NetK1_10 Pin=U1-6
+Added Net: Name=NetK1_10
+Added Pin To Net: NetName=NetK2_4 Pin=R2-2
+Added Pin To Net: NetName=NetK2_4 Pin=U2-2
+Added Net: Name=NetK2_4
+Added Pin To Net: NetName=NetK2_10 Pin=R2-1
+Added Pin To Net: NetName=NetK2_10 Pin=U2-6
+Added Net: Name=NetK2_10
+Added Pin To Net: NetName=NetK3_4 Pin=U3-2
+Added Net: Name=NetK3_4
+Added Pin To Net: NetName=NetK3_10 Pin=U3-6
+Added Net: Name=NetK3_10
+Added Pin To Net: NetName=NetK4_4 Pin=R5-2
+Added Pin To Net: NetName=NetK4_4 Pin=U4-2
+Added Net: Name=NetK4_4
+Added Pin To Net: NetName=NetK4_10 Pin=R5-1
+Added Pin To Net: NetName=NetK4_10 Pin=U4-6
+Added Net: Name=NetK4_10
+Added Pin To Net: NetName=NetK5_4 Pin=R6-2
+Added Pin To Net: NetName=NetK5_4 Pin=U5-2
+Added Net: Name=NetK5_4
+Added Pin To Net: NetName=NetK5_10 Pin=R6-1
+Added Pin To Net: NetName=NetK5_10 Pin=U5-6
+Added Net: Name=NetK5_10
+Added Pin To Net: NetName=NetK6_4 Pin=R7-1
+Added Pin To Net: NetName=NetK6_4 Pin=U6-2
+Added Net: Name=NetK6_4
+Added Pin To Net: NetName=NetK6_10 Pin=R7-2
+Added Pin To Net: NetName=NetK6_10 Pin=U6-6
+Added Net: Name=NetK6_10
+Add Class Member: Failed to add class member : Component C1 Capacitor
+Add Class Member: Failed to add class member : Component C2 Capacitor
+Add Class Member: Failed to add class member : Component C3 Capacitor
+Add Class Member: Failed to add class member : Component C4 Capacitor
+Add Class Member: Failed to add class member : Component C5 Capacitor
+Add Class Member: Failed to add class member : Component C6 Capacitor
+Added Member To Class: ClassName=Amp_schem Member=Component J2 5227161-6
+Add Class Member: Failed to add class member : Component J3 12-Pin header
+Add Class Member: Failed to add class member : Component K1 EC2-3NU
+Add Class Member: Failed to add class member : Component K2 EC2-3NU
+Add Class Member: Failed to add class member : Component K3 EC2-3NU
+Add Class Member: Failed to add class member : Component K4 EC2-3NU
+Add Class Member: Failed to add class member : Component K5 EC2-3NU
+Add Class Member: Failed to add class member : Component K6 EC2-3NU
+Added Member To Class: ClassName=Amp_schem Member=Component R1 RGP0207CHJ100M
+Added Member To Class: ClassName=Amp_schem Member=Component R2 MF1/4CCT52R1003B
+Added Member To Class: ClassName=Amp_schem Member=Component R3 MF1/4CCT52R1003B
+Added Member To Class: ClassName=Amp_schem Member=Component R4 MF1/4CCT52R1003B
+Added Member To Class: ClassName=Amp_schem Member=Component R5 MF1/4CCT52R1002B
+Added Member To Class: ClassName=Amp_schem Member=Component R6 LR1F1K0
+Added Member To Class: ClassName=Amp_schem Member=Component U1 TL031CP
+Added Member To Class: ClassName=Amp_schem Member=Component U2 TL031CP
+Added Member To Class: ClassName=Amp_schem Member=Component U3 TL031CP
+Added Member To Class: ClassName=Amp_schem Member=Component U4 TL031CP
+Added Member To Class: ClassName=Amp_schem Member=Component U6 TL031CP

@@ -1,0 +1,89 @@
+Added Component: Designator=K1(FP-EC2-3NU-MFG)
+Added Component: Designator=K2(FP-EC2-3NU-MFG)
+Added Component: Designator=K3(FP-EC2-3NU-MFG)
+Added Component: Designator=K4(FP-EC2-3NU-MFG)
+Added Component: Designator=K5(FP-EC2-3NU-MFG)
+Added Component: Designator=K6(FP-EC2-3NU-MFG)
+Added Component: Designator=P1(MOLX-22-27-2021_V)
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C5-1
+Add Pin To Net: Unknown Pin: Pin C5-2
+Add Pin To Net: Unknown Pin: Pin C6-1
+Add Pin To Net: Unknown Pin: Pin C6-2
+Add Pin To Net: Unknown Pin: Pin C7-1
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin J3-0
+Add Pin To Net: Unknown Pin: Pin K1-1
+Add Pin To Net: Unknown Pin: Pin K1-3
+Add Pin To Net: Unknown Pin: Pin K1-4
+Add Pin To Net: Unknown Pin: Pin K1-5
+Add Pin To Net: Unknown Pin: Pin K1-8
+Add Pin To Net: Unknown Pin: Pin K1-9
+Add Pin To Net: Unknown Pin: Pin K1-10
+Add Pin To Net: Unknown Pin: Pin K1-12
+Add Pin To Net: Unknown Pin: Pin K2-1
+Add Pin To Net: Unknown Pin: Pin K2-3
+Add Pin To Net: Unknown Pin: Pin K2-4
+Add Pin To Net: Unknown Pin: Pin K2-5
+Add Pin To Net: Unknown Pin: Pin K2-8
+Add Pin To Net: Unknown Pin: Pin K2-9
+Add Pin To Net: Unknown Pin: Pin K2-10
+Add Pin To Net: Unknown Pin: Pin K2-12
+Add Pin To Net: Unknown Pin: Pin K3-1
+Add Pin To Net: Unknown Pin: Pin K3-3
+Add Pin To Net: Unknown Pin: Pin K3-4
+Add Pin To Net: Unknown Pin: Pin K3-5
+Add Pin To Net: Unknown Pin: Pin K3-8
+Add Pin To Net: Unknown Pin: Pin K3-9
+Add Pin To Net: Unknown Pin: Pin K3-10
+Add Pin To Net: Unknown Pin: Pin K3-12
+Add Pin To Net: Unknown Pin: Pin K4-1
+Add Pin To Net: Unknown Pin: Pin K4-3
+Add Pin To Net: Unknown Pin: Pin K4-4
+Add Pin To Net: Unknown Pin: Pin K4-5
+Add Pin To Net: Unknown Pin: Pin K4-8
+Add Pin To Net: Unknown Pin: Pin K4-9
+Add Pin To Net: Unknown Pin: Pin K4-10
+Add Pin To Net: Unknown Pin: Pin K4-12
+Add Pin To Net: Unknown Pin: Pin K5-1
+Add Pin To Net: Unknown Pin: Pin K5-3
+Add Pin To Net: Unknown Pin: Pin K5-4
+Add Pin To Net: Unknown Pin: Pin K5-5
+Add Pin To Net: Unknown Pin: Pin K5-8
+Add Pin To Net: Unknown Pin: Pin K5-9
+Add Pin To Net: Unknown Pin: Pin K5-10
+Add Pin To Net: Unknown Pin: Pin K5-12
+Add Pin To Net: Unknown Pin: Pin K6-1
+Add Pin To Net: Unknown Pin: Pin K6-3
+Add Pin To Net: Unknown Pin: Pin K6-4
+Add Pin To Net: Unknown Pin: Pin K6-5
+Add Pin To Net: Unknown Pin: Pin K6-8
+Add Pin To Net: Unknown Pin: Pin K6-9
+Add Pin To Net: Unknown Pin: Pin K6-10
+Add Pin To Net: Unknown Pin: Pin K6-12
+Add Pin To Net: Unknown Pin: Pin P1-1
+Add Pin To Net: Unknown Pin: Pin P1-2
+Add Class Member: Failed to add class member : Component C1 Capacitor
+Add Class Member: Failed to add class member : Component C2 Capacitor
+Add Class Member: Failed to add class member : Component C3 Capacitor
+Add Class Member: Failed to add class member : Component C4 Capacitor
+Add Class Member: Failed to add class member : Component C5 Capacitor
+Add Class Member: Failed to add class member : Component C6 Capacitor
+Add Class Member: Failed to add class member : Component C7 Capacitor
+Add Class Member: Failed to add class member : Component C8 Capacitor
+Add Class Member: Failed to add class member : Component K1 EC2-3NU
+Add Class Member: Failed to add class member : Component K2 EC2-3NU
+Add Class Member: Failed to add class member : Component K3 EC2-3NU
+Add Class Member: Failed to add class member : Component K4 EC2-3NU
+Add Class Member: Failed to add class member : Component K5 EC2-3NU
+Add Class Member: Failed to add class member : Component K6 EC2-3NU
+Add Class Member: Failed to add class member : Component P1 22-27-2021

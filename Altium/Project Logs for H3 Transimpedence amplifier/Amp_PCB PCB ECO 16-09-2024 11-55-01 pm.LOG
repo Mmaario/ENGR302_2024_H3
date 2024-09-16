@@ -1,0 +1,104 @@
+Added Component: Designator=C1(CAP)
+Added Component: Designator=C2(CAP)
+Added Component: Designator=C3(CAP)
+Added Component: Designator=C4(CAP)
+Added Component: Designator=C5(CAP)
+Added Component: Designator=C6(CAP)
+Added Component: Designator=C7(CAP)
+Added Component: Designator=C8(CAP)
+Added Component: Designator=K1(Relay)
+Added Component: Designator=K2(Relay)
+Added Component: Designator=K3(Relay)
+Added Component: Designator=K4(Relay)
+Added Component: Designator=K5(Relay)
+Added Component: Designator=K6(Relay)
+Added Component: Designator=P1(MOLX-22-27-2021_V)
+Added Component: Designator=R12(RN60_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C5-1
+Add Pin To Net: Unknown Pin: Pin C5-2
+Add Pin To Net: Unknown Pin: Pin C6-1
+Add Pin To Net: Unknown Pin: Pin C6-2
+Add Pin To Net: Unknown Pin: Pin C7-1
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin J3-0
+Added Pin To Net: NetName=NetJ3_0 Pin=K1-1
+Added Pin To Net: NetName=In Pin=K1-3
+Added Pin To Net: NetName=NetK1_4 Pin=K1-4
+Added Pin To Net: NetName=Vref Pin=K1-5
+Added Pin To Net: NetName=Vref Pin=K1-8
+Added Pin To Net: NetName=Out Pin=K1-9
+Added Pin To Net: NetName=NetK1_10 Pin=K1-10
+Added Pin To Net: NetName=NetJ3_1 Pin=K1-12
+Added Pin To Net: NetName=NetJ3_6 Pin=K2-1
+Added Pin To Net: NetName=In Pin=K2-3
+Added Pin To Net: NetName=NetK2_4 Pin=K2-4
+Added Pin To Net: NetName=Vref Pin=K2-5
+Added Pin To Net: NetName=Vref Pin=K2-8
+Added Pin To Net: NetName=Out Pin=K2-9
+Added Pin To Net: NetName=NetK2_10 Pin=K2-10
+Added Pin To Net: NetName=NetJ3_7 Pin=K2-12
+Added Pin To Net: NetName=NetJ3_2 Pin=K3-1
+Added Pin To Net: NetName=In Pin=K3-3
+Added Pin To Net: NetName=NetK3_4 Pin=K3-4
+Added Pin To Net: NetName=Vref Pin=K3-5
+Added Pin To Net: NetName=Vref Pin=K3-8
+Added Pin To Net: NetName=Out Pin=K3-9
+Added Pin To Net: NetName=NetK3_10 Pin=K3-10
+Added Pin To Net: NetName=NetJ3_3 Pin=K3-12
+Added Pin To Net: NetName=NetJ3_8 Pin=K4-1
+Added Pin To Net: NetName=In Pin=K4-3
+Added Pin To Net: NetName=NetK4_4 Pin=K4-4
+Added Pin To Net: NetName=Vref Pin=K4-5
+Added Pin To Net: NetName=Vref Pin=K4-8
+Added Pin To Net: NetName=Out Pin=K4-9
+Added Pin To Net: NetName=NetK4_10 Pin=K4-10
+Added Pin To Net: NetName=NetJ3_9 Pin=K4-12
+Added Pin To Net: NetName=NetJ3_10 Pin=K5-1
+Added Pin To Net: NetName=In Pin=K5-3
+Added Pin To Net: NetName=NetK5_4 Pin=K5-4
+Added Pin To Net: NetName=Vref Pin=K5-5
+Added Pin To Net: NetName=Vref Pin=K5-8
+Added Pin To Net: NetName=Out Pin=K5-9
+Added Pin To Net: NetName=NetK5_10 Pin=K5-10
+Added Pin To Net: NetName=NetJ3_11 Pin=K5-12
+Added Pin To Net: NetName=NetJ3_4 Pin=K6-1
+Added Pin To Net: NetName=In Pin=K6-3
+Added Pin To Net: NetName=NetK6_4 Pin=K6-4
+Added Pin To Net: NetName=Vref Pin=K6-5
+Added Pin To Net: NetName=Vref Pin=K6-8
+Added Pin To Net: NetName=Out Pin=K6-9
+Added Pin To Net: NetName=NetK6_10 Pin=K6-10
+Added Pin To Net: NetName=NetJ3_5 Pin=K6-12
+Add Pin To Net: Unknown Pin: Pin P1-1
+Add Pin To Net: Unknown Pin: Pin P1-2
+Added Pin To Net: NetName=NetK3_4 Pin=R12-1
+Added Pin To Net: NetName=NetK3_10 Pin=R12-2
+Added Member To Class: ClassName=Amp_schem Member=Component C1 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component C2 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component C3 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component C4 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component C5 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component C6 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component C7 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component C8 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component K1 Relay
+Added Member To Class: ClassName=Amp_schem Member=Component K2 Relay
+Added Member To Class: ClassName=Amp_schem Member=Component K3 Relay
+Added Member To Class: ClassName=Amp_schem Member=Component K4 Relay
+Added Member To Class: ClassName=Amp_schem Member=Component K5 Relay
+Added Member To Class: ClassName=Amp_schem Member=Component K6 Relay
+Add Class Member: Failed to add class member : Component P1 22-27-2021
+Added Member To Class: ClassName=Amp_schem Member=Component R12 RN60C1004BRE6
