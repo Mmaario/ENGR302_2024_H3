@@ -9,8 +9,8 @@ A photodetector circuit.
 ## Roles:
 
 - Manager/Team lead: Max
-- Documentation lead: Ev
-- Technical lead: Mario
+- Documentation lead: Mario
+- Technical lead: Ev
 - Communications lead: Louis
 
 (This is flexible and open to change)
