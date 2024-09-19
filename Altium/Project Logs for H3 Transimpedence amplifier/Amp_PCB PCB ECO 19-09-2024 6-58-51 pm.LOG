@@ -1,0 +1,106 @@
+Change Footprint: Footprint Not Found HDR1X2
+Added Component: Designator=C2(Resistor 1/4)
+Added Component: Designator=C4(Resistor 1/4)
+Added Component: Designator=C5(Resistor 1/4)
+Added Component: Designator=C6(Resistor 1/4)
+Added Component: Designator=C7(Resistor 1/4)
+Added Component: Designator=K2(Relay)
+Added Component: Designator=K3(Relay)
+Added Component: Designator=K4(Relay)
+Added Component: Designator=K5(Relay)
+Added Component: Designator=K6(Relay)
+Added Component: Designator=R4(Resistor 0.4W)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R5(Resistor 0.4W)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R6(Resistor 0.4W)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R7(Resistor 0.4W)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R8(Resistor 0.4W)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=VCC Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=VCC Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=VCC Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=VCC Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=VCC Pin=C7-2
+Added Pin To Net: NetName=K2+ Pin=K2-1
+Added Pin To Net: NetName=Vref Pin=K2-3
+Added Pin To Net: NetName=NetK2_4 Pin=K2-4
+Added Pin To Net: NetName=In Pin=K2-5
+Added Pin To Net: NetName=NetK2_8 Pin=K2-8
+Added Pin To Net: NetName=Out Pin=K2-9
+Added Pin To Net: NetName=Vref Pin=K2-10
+Added Pin To Net: NetName=K2- Pin=K2-12
+Added Pin To Net: NetName=K3+ Pin=K3-1
+Added Pin To Net: NetName=Vref Pin=K3-3
+Added Pin To Net: NetName=NetK3_4 Pin=K3-4
+Added Pin To Net: NetName=In Pin=K3-5
+Added Pin To Net: NetName=NetK3_8 Pin=K3-8
+Added Pin To Net: NetName=Out Pin=K3-9
+Added Pin To Net: NetName=Vref Pin=K3-10
+Added Pin To Net: NetName=K3- Pin=K3-12
+Added Pin To Net: NetName=K4+ Pin=K4-1
+Added Pin To Net: NetName=Vref Pin=K4-3
+Added Pin To Net: NetName=NetK4_4 Pin=K4-4
+Added Pin To Net: NetName=In Pin=K4-5
+Added Pin To Net: NetName=NetK4_8 Pin=K4-8
+Added Pin To Net: NetName=Out Pin=K4-9
+Added Pin To Net: NetName=Vref Pin=K4-10
+Added Pin To Net: NetName=K4- Pin=K4-12
+Added Pin To Net: NetName=K5+ Pin=K5-1
+Added Pin To Net: NetName=Vref Pin=K5-3
+Added Pin To Net: NetName=NetK5_4 Pin=K5-4
+Added Pin To Net: NetName=In Pin=K5-5
+Added Pin To Net: NetName=NetK5_8 Pin=K5-8
+Added Pin To Net: NetName=Out Pin=K5-9
+Added Pin To Net: NetName=Vref Pin=K5-10
+Added Pin To Net: NetName=K5- Pin=K5-12
+Added Pin To Net: NetName=K6+ Pin=K6-1
+Added Pin To Net: NetName=Vref Pin=K6-3
+Added Pin To Net: NetName=NetK6_4 Pin=K6-4
+Added Pin To Net: NetName=In Pin=K6-5
+Added Pin To Net: NetName=NetK6_8 Pin=K6-8
+Added Pin To Net: NetName=Out Pin=K6-9
+Added Pin To Net: NetName=Vref Pin=K6-10
+Added Pin To Net: NetName=K6- Pin=K6-12
+Added Pin To Net: NetName=NetK2_4 Pin=R4-1
+Added Pin To Net: NetName=NetK2_8 Pin=R4-2
+Added Pin To Net: NetName=NetK3_4 Pin=R5-1
+Added Pin To Net: NetName=NetK3_8 Pin=R5-2
+Added Pin To Net: NetName=NetK4_4 Pin=R6-1
+Added Pin To Net: NetName=NetK4_8 Pin=R6-2
+Added Pin To Net: NetName=NetK5_4 Pin=R7-1
+Added Pin To Net: NetName=NetK5_8 Pin=R7-2
+Added Pin To Net: NetName=NetK6_4 Pin=R8-1
+Added Pin To Net: NetName=NetK6_8 Pin=R8-2
+Added Member To Class: ClassName=Amp_schem Member=Component C2 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component C4 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component C5 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component C6 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component C7 Cap
+Added Member To Class: ClassName=Amp_schem Member=Component K2 Relay
+Added Member To Class: ClassName=Amp_schem Member=Component K3 Relay
+Added Member To Class: ClassName=Amp_schem Member=Component K4 Relay
+Added Member To Class: ClassName=Amp_schem Member=Component K5 Relay
+Added Member To Class: ClassName=Amp_schem Member=Component K6 Relay
+Added Member To Class: ClassName=Amp_schem Member=Component R4 Resistor 1/4W
+Added Member To Class: ClassName=Amp_schem Member=Component R5 Resistor 1/4W
+Added Member To Class: ClassName=Amp_schem Member=Component R6 Resistor 1/4W
+Added Member To Class: ClassName=Amp_schem Member=Component R7 Resistor 1/4W
+Added Member To Class: ClassName=Amp_schem Member=Component R8 Resistor 1/4W
