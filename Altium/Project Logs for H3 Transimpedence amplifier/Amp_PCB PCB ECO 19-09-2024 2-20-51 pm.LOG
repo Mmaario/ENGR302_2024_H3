@@ -1,0 +1,29 @@
+Add Component: Footprint Not Found 2 Pin header
+Add Component: Footprint Not Found 2 Pin header
+Add Component: Footprint Not Found 2 Pin header
+Add Component: Footprint Not Found 2 Pin header
+Add Component: Footprint Not Found 2 Pin header
+Add Component: Footprint Not Found 2 Pin header
+Add Pin To Net: Unknown Pin: Pin J3-0
+Add Pin To Net: Unknown Pin: Pin J3-1
+Add Pin To Net: Unknown Pin: Pin J5-0
+Add Pin To Net: Unknown Pin: Pin J5-1
+Add Pin To Net: Unknown Pin: Pin J6-0
+Add Pin To Net: Unknown Pin: Pin J6-1
+Add Pin To Net: Unknown Pin: Pin J7-0
+Add Pin To Net: Unknown Pin: Pin J7-1
+Add Pin To Net: Unknown Pin: Pin J8-0
+Add Pin To Net: Unknown Pin: Pin J8-1
+Add Pin To Net: Unknown Pin: Pin J9-0
+Add Pin To Net: Unknown Pin: Pin J9-1
+Add Class Member: Failed to add class member : Component J3 2-Pin Header
+Add Class Member: Failed to add class member : Component J5 2-Pin Header
+Add Class Member: Failed to add class member : Component J6 2-Pin Header
+Add Class Member: Failed to add class member : Component J7 2-Pin Header
+Add Class Member: Failed to add class member : Component J8 2-Pin Header
+Add Class Member: Failed to add class member : Component J9 2-Pin Header
+Added Member To Class: ClassName=Amp_schem Member=Component K6 Relay
+Added Member To Class: ClassName=Amp_schem Member=Component R12 Resistor 1/4W
+Added Member To Class: ClassName=Amp_schem Member=Component U2 TL031CP
+Added Member To Class: ClassName=Amp_schem Member=Component U5 TL031CP
+Added Member To Class: ClassName=Amp_schem Member=Component U7 TL031CP
