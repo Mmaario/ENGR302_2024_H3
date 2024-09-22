@@ -1,1 +1,14 @@
-Successfully connected to 
+Successfully connected to transimpedance amplifier control server.
+
+Gain modes are as follows: 1 = 1000
+                           2 = 1000000
+                           3 = 1000000000
+                           4 = 1000000000000
+
+To change gain modes enter "Gain" followed by the desired mode number. I.E. "Gain 1"
+
+To check current gain mode enter "Status" which will report the current gain mode.
+
+For help at any time enter "Help"
+
+Note: Commands are not case sensitive.
