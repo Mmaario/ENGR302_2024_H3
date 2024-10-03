@@ -6,12 +6,14 @@
 \usepackage{hyperref}  % For hyperlinks
 \usepackage{lipsum}    % For example/filler text
 
+% All separate paragraphs in italics in the document below act as commentary to explain where content came from or stuff that still needs to be done. This MUST be all deleted before submission
+
 % *** TITLE AND AUTHOR ***
 \title{Electronically Switching TIA Design \\
     \large ENGR302 Final Project Report - 2024}
 
 \author{
-    \IEEEauthorblockN{Evgeny Zhilken, Louis Smith, Mario Pankusz, Max Mawby}
+    \IEEEauthorblockN{Evgeny Zhilkin, Louis Smith, Mario Pankusz, Max Mawby}
     \IEEEauthorblockA{
         Electrical \& Electronics Engineering \\
         Te Herenga Waka - Victoria University of Wellington \\
@@ -28,42 +30,111 @@
 The abstract goes here. It should briefly summarize the problem, method, and findings of your research in approximately 150-250 words.
 \end{abstract}
 
-% *** KEYWORDS ***
-\begin{IEEEkeywords}
-Keywords, Separated, By, Commas.
-\end{IEEEkeywords}
 
 % *** INTRODUCTION ***
 \section{Introduction}
-The introduction section introduces the context of the paper. You may want to include citations such as to show related work. You can refer to figures and tables using labels.
+\textit{ The purpose of this section is to introduce the problem being solved, to motivate why it is a problem one should care about, to outline the solution developed during the project, and to highlight the key findings from the evaluation.} \\
+
+This report comes at the end point of the ENGR302 design project which aims to produce a transimpedance amplifier for use by NZMSL in conjunction with a photodiode in order to accurately measure luminosity within an environment. This report aims to assess progress made so far and outline steps ahead by providing detailed insights into design decisions, and challenges, this document serves as a tool for future planning. It aims to clearly convey the project’s current status and the rationale behind the approach used throughout, ensuring that all stakeholders have a comprehensive understanding of the current state of the project and provide insight as to its trajectory. \\
+\textit{Copied from progress report}
+
+\subsection{Motivation}
+
+The New Zealand Measurement Standards Laboratory (NZMSL) plays a crucial role in ensuring the accuracy of measurement standards in New Zealand. One of their key responsibilities is the precise measurement of light levels from different sources, which is fundamental for applications ranging from environmental monitoring to industrial quality control. Accurate light measurement is vital for maintaining consistency in standards and ensuring that industries can rely on these measurements for their processes. In order to maintain this accuracy there is down time every time the testing room is exposed to light in order for the testing room to return back to the accurate light levels. NZMSL would like to reduce this down time, by reducing the number of times a person has to physically enter the room during a testing session. \\
+\textit{Copied from progress report}
+
+\subsection{Problem Statement}
+
+The current setup at NZMSL involves manual gain control, which requires entering the experiment room to switch the gain, resulting in a loss of time as the room must darken again. The project involves designing a solution that enables remote gain switching without exposing the experiment to light, significantly reducing the downtime and allowing gain adjustments without interrupting the experimental environment.
+Since NZMSL conducts experiments across a wide range of photodiodes, the solution must perform effectively within an operating current range from nano amps (nA) to milliamps (mA). Given NZMSL's role as a standard for measurements, it is crucial to ensure the solution's accuracy. This requires minimising interference with the input signal and carefully selecting components to reduce noise and inaccuracies in the amplification and switching circuits. \\
+\textit{Copied from progress report}
 
 % *** MAIN BODY ***
 \section{Related Work}
 
-\lipsum[1-3]
+\textit{This section should provide a comprehensive overview of existing research and literature relevant to the topic, demonstrating your understanding of the field.} \\
+
+Texas Instruments have published [1] an in-depth exploration of designing transimpedance amplifiers (TIAs) for applications requiring the amplification of extremely low currents (such as nA). The TIA is crucial in converting this tiny input current into a corresponding output voltage, making it suitable for this application which demands precise current measurement and control. To achieve a 0-10V output range, the amplifier design must carefully consider the feedback resistor, as its value directly determines the voltage output for a given input current. For an input current of nanoamps, the feedback resistor would need to be in the range of M$\Omega$. Additionally, selecting an operational amplifier with ultra-low input bias current and low noise characteristics is essential to maintain signal integrity and accuracy at such low current levels. The document emphasises the importance of ensuring stability and managing bandwidth limitations, which are critical when dealing with high gain configurations in TIA circuits.
+
+Another document from Texas Instruments [2] is a detailed guide on designing a photodiode amplifier using an operational amplifier configured as a trans-impedance amplifier. It is designed to amplify a light-dependent current from a photodiode resulting in an analogue voltage output. The document outlines key design considerations, such as selecting the appropriate gain resistor and feedback capacitor to meet desired bandwidth requirements which in this case is 0. The circuit is specifically designed with a 5V supply voltage, aiming to achieve a maximum output voltage of 4.9V with a minimum input current of 0A which in this application will need to be modified to allow for the 0V – 10V range required on the output. The design process is supported by detailed simulations and recommended component choices, particularly the OPA323 op amp, known for its low bias current and rail-to-rail output capabilities which may be required if using ground as the negative rail in this amplifier. This document serves as a comprehensive reference for designing photodiode amplifier circuits with robust performance in various applications.
+
+The article [3] by Black and Brisebois (Linear Technology) provides another view of an in-depth analysis of the requirements and challenges in designing transimpedance amplifiers for wide-range photodiodes, particularly in high-speed and high dynamic range applications. It discusses the critical role of low input bias current, low noise, and low input capacitance in achieving optimal TIA performance. The authors emphasise the importance of selecting amplifiers with FET input stages to minimise input current variation with temperature, as well as the need for careful board layout to reduce stray capacitances and leakage currents. Additionally, the consideration of adding a feedback capacitor is highlighted as a crucial step for ensuring circuit stability by compensating for input capacitance. The LTC6268 op amp is highlighted as a solution that meets these stringent requirements, offering femtoampere-level input bias current, high bandwidth, and low noise, making it ideal for advanced photodiode circuits. The discussion also underscores the trade-offs between gain, noise, and bandwidth in TIA design, illustrating the complexity of achieving stability and precision in such circuits.
+
+In another article [4], Bonnie Baker delves into the task of designing transimpedance amplifiers for precision photo-sensing applications. Baker emphasises the importance of achieving the correct phase margin, which is required for determining the circuit’s step response, overshoot characteristics, and quality factor. The article outlines a systematic approach to TIA design, beginning with defining the operational amplifier's output swing and progressing to the calculation of the feedback resistor and capacitor, which are central to setting the desired phase margin. A detailed discussion on the calculation of key frequencies and the impact of feedback components on circuit stability and bandwidth highlights the delicate balance needed in TIA design. Additionally, Baker underscores the importance of selecting an amplifier with low input bias current and offset voltage, as well as the iterative process of fine-tuning the feedback capacitor to achieve a preferred phase margin. The article also considers the role of parasitic capacitances and the necessity of incorporating a feedback capacitor within the design to ensure stability. Through a practical example involving the Texas Instruments OPA192IDBVR and Vishay's TEMD6200FX01 photodiode, Baker illustrates the application of these design principles, providing engineers with valuable insights into the optimization of TIA circuits for precision opto-sensing.\\
+
+\textit{Copied from progress report, will at the very least need to setup the references in this doc}
 
 \section{Design}
 
-\lipsum[1-5]
+\textit{The aim of this section is to articulate the technical solution with sufficient detail and clarity. When solving a complex problem, there are normally many different approaches one can take — each with its own advantages and disadvantages. It is expected that groups will initially consider a range of different solutions and narrow these down. The reasons why a particular approach was discounted should be documented here.} \\
+
+At the most basic level there are three components or parts to the design. A microprocessor, switching circuit, and the transimpedance amplifier (TIA) circuit(s). Figure 1 illustrates the following process: a microprocessor controls the switching circuit which directs the path of the input current (from the client’s photodiode) through the TIA. This effectively gives the microcontroller the ability to set the gain of the system. \\
+
+Figure 2 provides an alternative illustration of the fundamental workings of the design, including the basic arrangement of a TIA circuit. By changing the value of the feedback resistor between values on the order of 103 to 109, the TIA can output any current between 1nA to 1mA as a 1-10V voltage, satisfying requirements 1.1 and 2.1.
+
+\subsection{Hardware topologies}
+
+There are three TIA topologies that could be used for this design. This is a major consideration for the design, as the primary goal of the project is focused on the ability to change the gain of the TIA. \\
+
+The first topology, in figure 3, is the simplest and likely the most common. It puts feedback resistors in parallel with an op-amp, allowing switches to select which resistor, and therefore gain, is being used in the TIA circuit. NZMSL’s current TIAs use this topology with a manual dial physically switching out those resistors, as seen in Figure 4.
+The other two topologies dedicate an individual op-amp for each level of gain. The benefit of this is it allows a specific op-amp with ideal characteristics to be selected for each gain value, instead of restricting the entire circuit to one op-amp which may behave optimally for some gain values, but not so for others. \\
+
+Figure 5 illustrates a series configuration of multiple op-amps. The first circuit would be the only transimpedance amplifier, all the rest would be regular non-inverting amplifiers as they no longer have to turn a current into a voltage, and would instead need to amplify the voltage from the last circuit to the next decade of gain. The switching in this case would only be on the output, and select which op-amps output to feed to the output of the system.  \\
+
+The disadvantage of a set of TIA’s connected in series is that the first circuit will be a major limiting factor. If the first op-amp and feedback resistor receive a current that is beyond what they are designed to accurately amplify (whether it’s too low or high), it could distort the input and cascade that distortion all the way to the output, effectively nullifying the benefits of having multiple TIA circuits fine tuned to specific gain values. \\
+
+Figure 6 illustrates the chosen topology of this project. This design combines the benefits of both of the other topologies. It takes TIA circuits that have each been designed for a specific gain, and puts them in parallel to avoid unnecessarily modifying the input current, satisfying requirement R1.4. \\
+
+It is entirely possible that the parallel topology may pose problems that could outweigh the benefits of fine tuning the op-amps. This could arise from the switching which will necessarily be more complex than topology 1, or it could be that the physical layout causes issues such as creating unwanted capacitance between rails etc. It will not be possible to determine whether these problems are extant until the construction of a prototype that can be tested. If significant problems do arise it will be entirely possible to return to topology 1.
+
+\subsection{Switching considerations}
+
+A factor which must be taken into account before implementation is that of leakage current across switches. Leakage currents across switches have the potential to tamper with the input current of the circuit, with a small portion being leaked through open switches into disconnected portions of the circuit. This has the potential to add error to both the input and output, even with switches being employed on both sides of the transimpedance amplifier. This would degrade the input signal, while the output signal could receive leakage current from one or more of the inactive areas of the circuit. The possibility of the output being tampered with is reduced as any leakage current would need to first pass the input side switch, pass through the transimpedance amplifier and then also leak through the output side switch. The effects of this are to be tested upon prototype completion where the system will undergo integration testing. The possibility of the input signal being tampered with is likely to occur through leakage current, independent of any undesired output modifications from inactive circuits. However, as all outlined topologies employ the use of switches, it will be required that any leakage current be mitigated, this can be achieved through the use of higher quality switches which are made to minimise leakage current and thus its subsequent error. \\
+
+Using a switching method wherein an input to an op amp is left floating can lead to that op amp increasing its current consumption, and subsequently cause damage to the component itself. By tying the inverting and non-inverting inputs together, these risks can be mitigated or avoided. Additionally, by disconnecting the op-amp by opening an output side switch, any output from the op amp can be prevented from having any significant effect upon the system’s output.
+By using op amps which are within one IC package, there arises the issue of cross talk. Components within any given IC can cause electric and magnetic coupling between adjacent conductors, and cause undesired effects within. Signal propagation delays and failure, pulse distortions, and over/undershooting are common examples of such behaviour.
+The risk of these can be mitigated within designs by limiting the selected ICs to those with a fewer number of components in a single package. This practice will increase the component count, however it allows for the use of specific op amps for the different transimpedance amplifiers, allowing for their individual optimisation. This can be investigated during the prototyping phase.
+By using different op amps for the desired gain magnitudes, each op amp can be hand-picked in order to be optimal for the expected input current range, gain, and output voltage range. This may be hard to adhere to during prototyping due to limited immediate resources, with it being ideal that any components would need to be made available and integrated into the circuit before testing can begin. 
+
+\subsection{Software design}
+
+The software, run on the microprocessor, will be a simple program intended to merely trigger the switching components within the circuit to select the active gain based on a set of commands previously sent by the user. To satisfy requirements R2.2.1 \& R2.2.2 there will be a command that the user can send to the microprocessor to get the current gain, as well as a simple display, with an optional backlight (LCD or E-ink, etc), connected to the microprocessor to allow the user to easily check the gain being set at any given point. \\
+
+Languages/processor - The system is to be designed to utilise a Beaglebone Black running debian or ubuntu. For programming either python or C/C++ will be used. This selection was made due to the ease of setting up a remote connection on a Linux system, along with the extensive availability of libraries and resources for Python and C/C++. The downside of choosing this platform is the fact that this processor is overkill for it’s specified task and could be downgraded to a weaker processor that can still run a linux kernel at a much lower price.
+
+\subsection{Power Supply}
+
+As this is an active electronic design, it will need a power supply. Given that the output voltage needs to be able to reach 10V (as seen in requirement 2.1), the op-amps will require at least 10V to power their rails. The BeagleBone however, needs 5V to be powered. The simplest solution is to power them separately with 12V and 5V power supplies. This is not the neatest or most user friendly approach, and could be replaced by using a single power supply with a DC-DC voltage converter in the system. However, neither neatness nor user-friendliness are high priorities in this design, therefore they will only be implemented after other requirements are met and if time permits it. \\
+
+\textbf{\textit{All of the subsections above, under design, have been copied over from the Progress Report. Large chunks will need rewording, rewriting, to be completely deleted, or have information added to them to make sense in the context of our final report. - Mario}}
 
 \section{Implementation}
 
-\lipsum[1-5]
+\textit{The purpose of this section is for you to discuss how you transformed the technical solution (the design) to its realisation (the artifact). Similar to the Design section, you must provide clear and sufficient descriptions.} \\
+
+
 
 \section{Evaluation}
 
-\lipsum[1-3]
+\textit{The purpose of the evaluation section is to demonstrate whether you did or did not satisfy the project goals or specifications. If you can tie the performance of your design to some real specification then your evaluation is much stronger. “My code runs in 29 ms” is much weaker than “my code runs within the 30 ms window allowable for real-time performance of the. . . ”.} \\
+
+
 
 \section{Conclusions \& Future Work}
-Summarize the findings and future work in the conclusion.
 
-\lipsum[1-3]
+\textit{Future work should not just be a list of things that you would have done if you had a little more time. Talk about new things that are possible now that you have finished your project. What projects could a ’489 student tackle next year if they started on their '489 project next year from your end point? HINT: This might be a possibility!} \\
+
+
+
 
 
 
 % *** REFERENCES ***
-% Need to figure out how to make a bibliography in LaTeX  :|
-%\bibliographystyle{IEEEtran}
-%\bibliography{references}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\textit{Referencing and citation are important to avoid plagiarism. You must follow an appropriate citation format (e.g. IEEE, Chicago, APA, etc.)} \\
+
+
 
 \end{document}
