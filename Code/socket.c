@@ -5,7 +5,7 @@
 #include <string.h>
 #include <unistd.h>
 
-#define PORT 8080
+#define PORT 88
 #define SA struct sockaddr
 
 int create_socket() {

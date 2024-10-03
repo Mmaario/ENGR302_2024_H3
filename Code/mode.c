@@ -2,45 +2,74 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <string.h>
+#include <fcntl.h>
 
-// Example GPIO setup for BeagleBone Black
-#define GPIO_PIN_BASE "/sys/class/gpio/gpio"
-#define NUM_MODES 6
+#define GPIO_EXPORT_PATH "/sys/class/gpio/export"
+#define GPIO_UNEXPORT_PATH "/sys/class/gpio/unexport"
+#define GPIO_DIRECTION_PATH "/sys/class/gpio/gpio%d/direction"
+#define GPIO_VALUE_PATH "/sys/class/gpio/gpio%d/value"
 
 int current_mode = -1;
 
-void export_gpio(int pin) {
-    FILE *export_file = fopen("/sys/class/gpio/export", "w");
+void export_gpio(int pin[20]) {
+    FILE *export_file = fopen(GPIO_EXPORT_PATH, "w");
+    usleep(1000);
     if (export_file == NULL) {
         perror("Error exporting GPIO");
         exit(1);
     }
-    fprintf(export_file, "%d", pin);
+    for (int i = 0; i < 6; i++) {
+        fprintf(export_file, "%d", pin[i]);
+    }
+
     fclose(export_file);
 }
 
-void set_gpio_direction(int pin, const char *direction) {
-    char path[50];
-    sprintf(path, GPIO_PIN_BASE "%d/direction", pin);
-    FILE *direction_file = fopen(path, "w");
-    if (direction_file == NULL) {
-        perror("Error setting GPIO direction");
-        exit(1);
+int set_gpio_direction(int pin, const char *direction) {
+    char direction_path[40];
+    sprintf(direction_path, GPIO_DIRECTION_PATH, pin);   
+    int fd = open(direction_path, O_WRONLY);
+    
+
+
+    
+    if (fd == -1) {
+        perror("Error setting GPIO direction:");
+        printf("%d \n",pin);
+        return -1;
     }
-    fprintf(direction_file, "%s", direction);
-    fclose(direction_file);
+
+    if (write(fd, direction, strlen(direction)) == -1) {
+        perror("Error writing to direction file");
+        close(fd);
+        return -1;
+    }
+
+    close(fd);
+    return 0;
 }
 
-void set_gpio_value(int pin, int value) {
-    char path[50];
-    sprintf(path, GPIO_PIN_BASE "%d/value", pin);
-    FILE *value_file = fopen(path, "w");
-    if (value_file == NULL) {
+int set_gpio_value(int pin, int value) {
+    char value_path[40];
+ 
+    sprintf(value_path, GPIO_VALUE_PATH, pin);
+    int fd = open(value_path, O_WRONLY);
+
+    if (fd == -1) {
         perror("Error setting GPIO value");
-        exit(1);
+        return -1;
     }
-    fprintf(value_file, "%d", value);
-    fclose(value_file);
+
+    char value_str = (value == 1) ? '1' : '0';
+    if (write(fd, &value_str, 1) == -1) {
+        perror("Error writing to value file");
+        close(fd);
+        return -1;
+    }
+
+    close(fd);
+    return 0;
 }
 
 void set_mode(int mode) {
