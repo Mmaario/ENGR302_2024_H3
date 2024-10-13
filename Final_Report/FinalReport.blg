@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: FinalReport.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: references.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing publisher in hashemi_2015
+Warning--missing publisher in Texas_Instruments
+Warning--empty year in Texas_Instruments
+Warning--missing publisher in black_brisebois_2014
+
+Done.
+You've used 5 entries,
+            4087 wiz_defined-function locations,
+            849 strings with 8149 characters,
+and the built_in function-call counts, 1868 in all, are:
+= -- 125
+> -- 25
+< -- 0
++ -- 12
+- -- 6
+* -- 90
+:= -- 353
+add.period$ -- 6
+call.type$ -- 5
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 137
+empty$ -- 197
+format.name$ -- 7
+if$ -- 393
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 29
+newline$ -- 48
+num.names$ -- 5
+pop$ -- 93
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 148
+stack$ -- 0
+substring$ -- 1
+swap$ -- 76
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 5
+warning$ -- 4
+while$ -- 5
+width$ -- 6
+write$ -- 69
+(There were 4 warnings)
