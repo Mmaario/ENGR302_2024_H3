@@ -1,0 +1,232 @@
+Add Component: Footprint Not Found Resistor 1/4
+Add Component: Footprint Not Found Resistor 1/4
+Add Component: Footprint Not Found Resistor 1/4
+Add Component: Footprint Not Found Resistor 1/4
+Add Component: Footprint Not Found Resistor 1/4
+Add Component: Footprint Not Found Resistor 1/4
+Add Component: Footprint Not Found Resistor 1/4
+Add Component: Footprint Not Found HDR1X2
+Add Component: Footprint Not Found Relay
+Add Component: Footprint Not Found Relay
+Add Component: Footprint Not Found Relay
+Add Component: Footprint Not Found Relay
+Add Component: Footprint Not Found Relay
+Add Component: Footprint Not Found Relay
+Add Component: Footprint Not Found HDR1X2
+Add Component: Footprint Not Found HDR1X2
+Add Component: Footprint Not Found HDR1X2
+Add Component: Footprint Not Found HDR1X2
+Add Component: Footprint Not Found HDR1X2
+Add Component: Footprint Not Found HDR1X2
+Add Component: Footprint Not Found Resistor 0.4W
+Add Component: Footprint Not Found Resistor 0.4W
+Add Component: Footprint Not Found Resistor 0.4W
+Add Component: Footprint Not Found Resistor 0.4W
+Add Component: Footprint Not Found Resistor 0.4W
+Add Component: Footprint Not Found Resistor 0.4W
+Add Component: Footprint Not Found Resistor 0.4W
+Add Component: Footprint Not Found Resistor 0.4W
+Added Component: Designator=U1(P8)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-7144-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=U2(P8)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-7144-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=U3(P8)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-7144-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=U4(P8)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-7144-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=U5(P8)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-7144-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=U6(P8)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-7144-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=U7(P8)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-7144-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C5-1
+Add Pin To Net: Unknown Pin: Pin C5-2
+Add Pin To Net: Unknown Pin: Pin C6-1
+Add Pin To Net: Unknown Pin: Pin C6-2
+Add Pin To Net: Unknown Pin: Pin C7-1
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin J4-0
+Add Pin To Net: Unknown Pin: Pin J4-1
+Add Pin To Net: Unknown Pin: Pin K1-1
+Add Pin To Net: Unknown Pin: Pin K1-3
+Add Pin To Net: Unknown Pin: Pin K1-4
+Add Pin To Net: Unknown Pin: Pin K1-5
+Add Pin To Net: Unknown Pin: Pin K1-8
+Add Pin To Net: Unknown Pin: Pin K1-9
+Add Pin To Net: Unknown Pin: Pin K1-10
+Add Pin To Net: Unknown Pin: Pin K1-12
+Add Pin To Net: Unknown Pin: Pin K2-1
+Add Pin To Net: Unknown Pin: Pin K2-3
+Add Pin To Net: Unknown Pin: Pin K2-4
+Add Pin To Net: Unknown Pin: Pin K2-5
+Add Pin To Net: Unknown Pin: Pin K2-8
+Add Pin To Net: Unknown Pin: Pin K2-9
+Add Pin To Net: Unknown Pin: Pin K2-10
+Add Pin To Net: Unknown Pin: Pin K2-12
+Add Pin To Net: Unknown Pin: Pin K3-1
+Add Pin To Net: Unknown Pin: Pin K3-3
+Add Pin To Net: Unknown Pin: Pin K3-4
+Add Pin To Net: Unknown Pin: Pin K3-5
+Add Pin To Net: Unknown Pin: Pin K3-8
+Add Pin To Net: Unknown Pin: Pin K3-9
+Add Pin To Net: Unknown Pin: Pin K3-10
+Add Pin To Net: Unknown Pin: Pin K3-12
+Add Pin To Net: Unknown Pin: Pin K4-1
+Add Pin To Net: Unknown Pin: Pin K4-3
+Add Pin To Net: Unknown Pin: Pin K4-4
+Add Pin To Net: Unknown Pin: Pin K4-5
+Add Pin To Net: Unknown Pin: Pin K4-8
+Add Pin To Net: Unknown Pin: Pin K4-9
+Add Pin To Net: Unknown Pin: Pin K4-10
+Add Pin To Net: Unknown Pin: Pin K4-12
+Add Pin To Net: Unknown Pin: Pin K5-1
+Add Pin To Net: Unknown Pin: Pin K5-3
+Add Pin To Net: Unknown Pin: Pin K5-4
+Add Pin To Net: Unknown Pin: Pin K5-5
+Add Pin To Net: Unknown Pin: Pin K5-8
+Add Pin To Net: Unknown Pin: Pin K5-9
+Add Pin To Net: Unknown Pin: Pin K5-10
+Add Pin To Net: Unknown Pin: Pin K5-12
+Add Pin To Net: Unknown Pin: Pin K6-1
+Add Pin To Net: Unknown Pin: Pin K6-3
+Add Pin To Net: Unknown Pin: Pin K6-4
+Add Pin To Net: Unknown Pin: Pin K6-5
+Add Pin To Net: Unknown Pin: Pin K6-8
+Add Pin To Net: Unknown Pin: Pin K6-9
+Add Pin To Net: Unknown Pin: Pin K6-10
+Add Pin To Net: Unknown Pin: Pin K6-12
+Add Pin To Net: Unknown Pin: Pin P1-1
+Add Pin To Net: Unknown Pin: Pin P1-2
+Add Pin To Net: Unknown Pin: Pin P2-1
+Add Pin To Net: Unknown Pin: Pin P2-2
+Add Pin To Net: Unknown Pin: Pin P3-1
+Add Pin To Net: Unknown Pin: Pin P3-2
+Add Pin To Net: Unknown Pin: Pin P4-1
+Add Pin To Net: Unknown Pin: Pin P4-2
+Add Pin To Net: Unknown Pin: Pin P5-1
+Add Pin To Net: Unknown Pin: Pin P5-2
+Add Pin To Net: Unknown Pin: Pin P6-1
+Add Pin To Net: Unknown Pin: Pin P6-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-1
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R4-2
+Add Pin To Net: Unknown Pin: Pin R5-1
+Add Pin To Net: Unknown Pin: Pin R5-2
+Add Pin To Net: Unknown Pin: Pin R6-1
+Add Pin To Net: Unknown Pin: Pin R6-2
+Add Pin To Net: Unknown Pin: Pin R7-1
+Add Pin To Net: Unknown Pin: Pin R7-2
+Add Pin To Net: Unknown Pin: Pin R8-1
+Add Pin To Net: Unknown Pin: Pin R8-2
+Added Pin To Net: NetName=NetK1_4 Pin=U1-2
+Added Pin To Net: NetName=Vref Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=NetK1_9 Pin=U1-6
+Added Pin To Net: NetName=VCC Pin=U1-7
+Added Pin To Net: NetName=NetK2_4 Pin=U2-2
+Added Pin To Net: NetName=Vref Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=NetK2_9 Pin=U2-6
+Added Pin To Net: NetName=VCC Pin=U2-7
+Added Pin To Net: NetName=Vref Pin=U3-2
+Added Pin To Net: NetName=NetR1_2 Pin=U3-3
+Added Pin To Net: NetName=GND Pin=U3-4
+Added Pin To Net: NetName=Vref Pin=U3-6
+Added Pin To Net: NetName=VCC Pin=U3-7
+Added Pin To Net: NetName=NetK3_4 Pin=U4-2
+Added Pin To Net: NetName=Vref Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Pin To Net: NetName=NetK3_9 Pin=U4-6
+Added Pin To Net: NetName=VCC Pin=U4-7
+Added Pin To Net: NetName=NetK4_4 Pin=U5-2
+Added Pin To Net: NetName=Vref Pin=U5-3
+Added Pin To Net: NetName=GND Pin=U5-4
+Added Pin To Net: NetName=NetK4_9 Pin=U5-6
+Added Pin To Net: NetName=VCC Pin=U5-7
+Added Pin To Net: NetName=NetK5_4 Pin=U6-2
+Added Pin To Net: NetName=Vref Pin=U6-3
+Added Pin To Net: NetName=GND Pin=U6-4
+Added Pin To Net: NetName=NetK5_9 Pin=U6-6
+Added Pin To Net: NetName=VCC Pin=U6-7
+Added Pin To Net: NetName=NetK6_4 Pin=U7-2
+Added Pin To Net: NetName=Vref Pin=U7-3
+Added Pin To Net: NetName=GND Pin=U7-4
+Added Pin To Net: NetName=NetK6_9 Pin=U7-6
+Added Pin To Net: NetName=VCC Pin=U7-7
+Add Class Member: Failed to add class member : Component C1 100nF
+Add Class Member: Failed to add class member : Component C2 100nF
+Add Class Member: Failed to add class member : Component C3 100nF
+Add Class Member: Failed to add class member : Component C4 100nF
+Add Class Member: Failed to add class member : Component C5 100nF
+Add Class Member: Failed to add class member : Component C6 100nF
+Add Class Member: Failed to add class member : Component C7 100nF
+Add Class Member: Failed to add class member : Component J4 2-Pin Header
+Add Class Member: Failed to add class member : Component K1 EC2-3SNU
+Add Class Member: Failed to add class member : Component K2 EC2-3SNU
+Add Class Member: Failed to add class member : Component K3 EC2-3SNU
+Add Class Member: Failed to add class member : Component K4 EC2-3SNU
+Add Class Member: Failed to add class member : Component K5 EC2-3SNU
+Add Class Member: Failed to add class member : Component K6 EC2-3SNU
+Add Class Member: Failed to add class member : Component P1 Header 2
+Add Class Member: Failed to add class member : Component P2 Header 2
+Add Class Member: Failed to add class member : Component P3 Header 2
+Add Class Member: Failed to add class member : Component P4 Header 2
+Add Class Member: Failed to add class member : Component P5 Header 2
+Add Class Member: Failed to add class member : Component P6 Header 2
+Add Class Member: Failed to add class member : Component R1 100k 0.1% 1/4w
+Add Class Member: Failed to add class member : Component R2 100k 0.1% 1/4w
+Add Class Member: Failed to add class member : Component R3 1k 1% 0.6W
+Add Class Member: Failed to add class member : Component R4 10k 0.1% 1/4W
+Add Class Member: Failed to add class member : Component R5 10M 1% 0.4W
+Add Class Member: Failed to add class member : Component R6 100k 0.1% 1/4W
+Add Class Member: Failed to add class member : Component R7 100M 1% 1/4W
+Add Class Member: Failed to add class member : Component R8 1M 0.1% 1/4W
+Added Member To Class: ClassName=Amp_schem Member=Component U1 TL031CP
+Added Member To Class: ClassName=Amp_schem Member=Component U2 TL031CP
+Added Member To Class: ClassName=Amp_schem Member=Component U3 TL031CP
+Added Member To Class: ClassName=Amp_schem Member=Component U4 TL031CP
+Added Member To Class: ClassName=Amp_schem Member=Component U5 TL031CP
+Added Member To Class: ClassName=Amp_schem Member=Component U6 TL031CP
+Added Member To Class: ClassName=Amp_schem Member=Component U7 TL031CP
